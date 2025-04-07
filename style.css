@@ -160,7 +160,7 @@
         position: fixed;
         overflow: hidden;
         right: -100%;
-        z-index: 1000;
+        z-index: 100;
         transition: all 1s ease-in-out;
         text-align: center;
         justify-content: center;
@@ -173,7 +173,7 @@
         top: 100%;
 
         .links__item {
-          font-size: clamp(1.5rem, 2vw, 3rem);
+          font-size: clamp(1.2rem, 2vw, 3rem);
           overflow: hidden;
           font-weight: 700;
           letter-spacing: 0.1rem;
@@ -191,8 +191,12 @@
         flex-direction: row-reverse;
 
         .button-icon__hamburger {
-          display: block;
+          display: flex;
         }
+      }
+
+      .navbar__input {
+        appearance: none;
       }
 
       .navbar__input:checked + .navbar__links {
