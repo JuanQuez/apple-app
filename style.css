@@ -197,6 +197,7 @@
 
       .navbar__input:checked + .navbar__links {
         right: 0;
+        overflow: hidden;
       }
     }
   }
