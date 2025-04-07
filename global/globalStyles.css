@@ -1,0 +1,169 @@
+:root {
+  /* FONTS */
+  --font-sf-pro-display-regular: "SFProDisplayRegular", sans-serif;
+  --font-sf-pro-display-semibold: "SFProDisplaySemibold", sans-serif;
+  --font-sf-pro-display-bold: "SFProDisplayBold", sans-serif;
+  --font-sf-pro-text-medium: "SFProTextMedium", sans-serif;
+  --font-sf-pro-text-regular: "SFProTextRegular", sans-serif;
+  --font-sf-pro-text-semibold: "SFProTextSemibold", sans-serif;
+
+  /* BASE COLORS */
+  --color-white: #fff;
+  --color-black: #000;
+
+  /* PALLETE COLORS */
+  --color-nav: rgba(255, 255, 255, 0.8);
+  --ribbon-link-color: rgb(41, 151, 255);
+
+  /* OTHERS VARIANTS */
+  --cap-overlay: rgba(0, 0, 0, 0.5);
+  /* BACKGROUNDS & TEXTURES */
+  --main-background: #fff;
+  --navbar-background: rgba(22, 22, 23, 0.8);
+  --footer-background: rgb(245, 245, 247);
+  --footer-border-color: rgba(0, 0, 0, 0.16);
+  --footer-border-color--variant: rgba(0, 0, 0, 0.507);
+  --footer-link-color: rgba(0, 0, 0, 0.72);
+  --footer-title-color: rgba(0, 0, 0, 0.88);
+  --footer-title-color-hover: #000;
+  --footer-pipe-color: rgba(0, 0, 0, 0.48);
+  --ribbon-background-color: rgb(29, 29, 31);
+  --background-btn-color: rgb(0, 113, 227);
+
+  /* HERO BACKGROUNDS */
+  --background-home: url(/public/assets/img/hero/hero_iphone16pro_avail__fnf0f9x70jiy_largetall.jpg)
+    no-repeat center/cover;
+  --background-hero: url(/public/assets/img/hero/hero_iphone16_avail__euwzls69btea_mediumtall_2x.jpg)
+    no-repeat center/cover;
+  --background-wacth: url(/public/assets/img/hero/hero_apple_watch_family__dktodkf3g7au_small_2x.jpg)
+    no-repeat bottom/cover;
+
+  /* PROMO BACKGROUNDS */
+  --background-promo-1: url(/public/assets/img/promo/promo_apple_card__5cm7draujpey_large_2x.jpg)
+    no-repeat center/cover;
+  --background-promo-2: url(/public/assets/img/promo/promo_macbook_air_avail__e8ksaudoisey_large_2x.jpg)
+    no-repeat center/cover;
+  --background-promo-3: url(/public/assets/img/promo/promo_iphone_tradein__bugw15ka691e_large_2x.jpg)
+    no-repeat center/cover;
+  --background-promo-4: url(/public/assets/img/promo/promo_ipad_air__bfbxzvw65c02_large_2x.jpg)
+    no-repeat center/cover;
+
+  /* GLOBAL ANIMATIONS */
+}
+
+* {
+  min-width: 0;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  white-space: balance;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-primary);
+}
+
+/* scrollbar custom */
+::-webkit-scrollbar {
+  width: 0.3rem;
+}
+
+::-webkit-scrollbar-track {
+  background: black;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: white;
+  border-radius: 2rem;
+}
+
+/* SET FONT FAMILY */
+a,
+p,
+h2 {
+  font-family: var(--font-sf-pro-text-regular);
+}
+
+h1,
+h3,
+button,
+span {
+  font-family: var(--font-sf-pro-display-semibold);
+}
+
+/* ELEMENTS BROWSER STYLES OFF */
+p {
+  word-wrap: break-word;
+}
+
+a {
+  text-decoration: none;
+}
+
+svg {
+  display: block;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+img,
+svg,
+button {
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+button {
+  border: none;
+}
+
+input,
+textarea:focus {
+  outline: none;
+}
+
+a {
+  color: var(--ribbon-link-color);
+}
+
+/* CUSTOM URL FONTS */
+
+@font-face {
+  font-family: SFProDisplayRegular;
+  src: url(/public/assets/font/sf-pro-display_regular.woff2) format("woff2");
+}
+@font-face {
+  font-family: SFProDisplaySemibold;
+  src: url(/public/assets/font/sf-pro-display_semibold.woff2) format("woff2");
+}
+@font-face {
+  font-family: SFProDisplayBold;
+  src: url(/public/assets/font/sf-pro-display_bold.woff2) format("woff2");
+}
+
+@font-face {
+  font-family: SFProTextRegular;
+  src: url(/public/assets/font/sf-pro-text_regular.woff2) format("woff2");
+}
+@font-face {
+  font-family: SFProTextMedium;
+  src: url(/public/assets/font/sf-pro-text_medium.woff2) format("woff2");
+}
+@font-face {
+  font-family: SFProTextSemibold;
+  src: url(/public/assets/font/sf-pro-display_semibold.woff2) format("woff2");
+}
