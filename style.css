@@ -85,7 +85,6 @@
 
 .header {
   width: 100%;
-  overflow: hidden;
   flex-direction: column;
 
   .header__navbar,
