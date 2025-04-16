@@ -196,7 +196,7 @@
       }
 
       .navbar__input {
-        appearance: none;
+        overflow: hidden;
       }
 
       .navbar__input:checked + .navbar__links {

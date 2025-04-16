@@ -71,7 +71,6 @@ html {
 
 body {
   background: var(--color-primary);
-  overflow: hidden;
 }
 
 /* scrollbar custom */
